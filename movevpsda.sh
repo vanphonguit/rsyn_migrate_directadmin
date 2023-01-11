@@ -248,6 +248,8 @@ user="$user2$randomuser"
 randompass=$(gen_pass)
 
 curl -ss --location --request GET "http://admin:${pass_da}@127.0.0.1:2222/CMD_API_ACCOUNT_USER?action=create&add=Submit&username=${user}&email=admin@${domain}&passwd=${randompass}&passwd2=${randompass}&domain=${domain}&notify=no&ip=${my_ip}&cgi=ON&php=ON&spam=ON&cron=ON&ssl=ON&sysinfo=ON&login_keys=ON&dnscontrol=ON&suspend_at_limit=ON" >>  $rootuser/log_tranfer/create_user_da
+rm -rf /home/$user/domains/$domain/public_html/*
+
 echo "$domain $user $randompass" >>  $rootuser/log_tranfer/list_create_account_da
 
 
