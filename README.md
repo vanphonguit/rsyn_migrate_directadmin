@@ -11,15 +11,15 @@ script giúp chuyển dữ liệu VPS từ 1 VPS directadmin sang 1 vps directad
 
 Tại VPS cần chuyển dữ liệu tới tải file :
 
-**wget https://github.com/vanphonguit/rsyn_migrate_directadmin/blob/main/movevpsda.sh**
+1. **wget https://github.com/vanphonguit/rsyn_migrate_directadmin/blob/main/movevpsda.sh**
 
 + edit file tải về sửa IP VPS cần sysn data.
 + sửa giá trị **pass_da** là pass admin của VPS directadmin cần chuyển dữ liệu tới.
 
-Chạy lệnh sau để bắt đầu chuyển dữ liệu.
-**
-bash movevpsda.sh
-**
+Chạy lệnh sau để bắt đầu chuyển dữ liệu: 
+
+2. **bash movevpsda.sh**
+
 
 Nhập pass root VPS vps remote để chuyển.
 
