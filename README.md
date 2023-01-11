@@ -10,9 +10,9 @@ script giúp chuyển dữ liệu VPS từ 1 VPS directadmin sang 1 vps directad
 # chạy chương trình :
 
 Tại VPS cần chuyển dữ liệu tới tải file :
-**
-wget https://github.com/vanphonguit/rsyn_migrate_directadmin/blob/main/movevpsda.sh
-**
+
+**wget https://github.com/vanphonguit/rsyn_migrate_directadmin/blob/main/movevpsda.sh**
+
 + edit file tải về sửa IP VPS cần sysn data.
 + sửa giá trị **pass_da** là pass admin của VPS directadmin cần chuyển dữ liệu tới.
 
